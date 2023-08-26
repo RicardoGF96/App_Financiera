@@ -24,7 +24,7 @@ function App() {
             alt="App de Finanzas"
           />
           <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
-            Sign in to your account
+            Inicia sesión en tu cuenta
           </h2>
         </div>
 
@@ -35,7 +35,7 @@ function App() {
                 htmlFor="email"
                 className="block text-sm font-medium leading-6 text-gray-900"
               >
-                Email address
+                Dirección de correo electrónico
               </label>
               <div className="mt-2">
                 <input
@@ -55,14 +55,14 @@ function App() {
                   htmlFor="password"
                   className="block text-sm font-medium leading-6 text-gray-900"
                 >
-                  Password
+                  Contraseña
                 </label>
                 <div className="text-sm">
                   <a
                     href="#"
                     className="font-semibold text-indigo-600 hover:text-indigo-500"
                   >
-                    Forgot password?
+                    ¿Olvidaste tu contraseña?
                   </a>
                 </div>
               </div>
@@ -83,18 +83,18 @@ function App() {
                 type="submit"
                 className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
-                Sign in
+                Iniciar sesión.
               </button>
             </div>
           </form>
 
           <p className="mt-10 text-center text-sm text-gray-500">
-            Not a member?{" "}
+            ¿No eres miembro?{" "}
             <a
               href="#"
               className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500"
             >
-              Start a 14 day free trial
+              Comienza una prueba gratuita de 14 días.
             </a>
           </p>
           
